@@ -65,13 +65,18 @@
       font-size: 0.95em;
     }
     @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-      }
-      .video-section iframe {
-        height: 200px;
-      }
-    }
+  .container {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .video-section iframe {
+    height: 200px;
+    margin-top: -10px;
+  }
+  .text-section {
+    padding-bottom: 0;
+  }
+}
   </style>
 </head>
 <body>
@@ -82,7 +87,7 @@
       <p>Explora, aprende y disfruta de lo que hay más allá del contenido. Aquí no solo ves—también sientes lo que hay detrás.</p>
     </div>
     <div class="video-section">
-      <!-- Reemplaza el link de YouTube aquí -->
+      
       <iframe src="https://www.youtube.com/embed/TU_VIDEO_AQUI" allowfullscreen></iframe>
     </div>
   </div>
